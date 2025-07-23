@@ -128,9 +128,9 @@ const HomePage = () => {
                         <span className="badge badge-secondary">
                           Issue: {capitialize(user.nativeLanguage)}
                         </span>
-                        <span className="badge badge-outline">
+                        {/* <span className="badge badge-outline">
                           Severity: {capitialize(user.learningLanguage)}
-                        </span>
+                        </span> */}
                       </div>
 
                       {user.bio && <p className="text-sm opacity-70">{user.bio}</p>}

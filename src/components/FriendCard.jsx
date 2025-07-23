@@ -16,9 +16,9 @@ const FriendCard = ({ friend }) => {
           <span className="badge badge-secondary text-xs">
             Problem: {friend.nativeLanguage}
           </span>
-          <span className="badge badge-outline text-xs">
+          {/* <span className="badge badge-outline text-xs">
             Severity {friend.learningLanguage}
-          </span>
+          </span> */}
         </div>
 
         <Link to={`/chat/${friend._id}`} className="btn btn-outline w-full">
